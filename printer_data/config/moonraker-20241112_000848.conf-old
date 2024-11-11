@@ -76,12 +76,3 @@ origin: https://github.com/TypQxQ/KTC.git
 primary_branch: main
 install_script: install.sh
 managed_services: klipper
-
-
-[update_manager Query-Endstop-Continuesly]
-type: git_repo
-path: /home/pi/Query-Endstop-Continuesly-in-Klipper
-origin: https://github.com/TypQxQ/Query-Endstop-Continuesly-in-Klipper.git
-primary_branch: main
-install_script: install.sh
-managed_services: klipper
