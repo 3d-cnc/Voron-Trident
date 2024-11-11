@@ -68,11 +68,3 @@ origin: https://github.com/andrewmcgr/klipper_tmc_autotune.git
 managed_services: klipper
 primary_branch: main
 install_script: install.sh
-
-[update_manager KTC]
-type: git_repo
-path: /home/pi/KTC
-origin: https://github.com/TypQxQ/KTC.git
-primary_branch: main
-install_script: install.sh
-managed_services: klipper
