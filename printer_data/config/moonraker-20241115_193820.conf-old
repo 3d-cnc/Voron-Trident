@@ -91,11 +91,3 @@ path: ~/Klipper_ToolChanger
 origin: https://github.com/TypQxQ/Klipper_ToolChanger.git
 install_script: install.sh
 is_system_service: False
-
-[update_manager KTC]
-type: git_repo
-path: /home/pi/KTC
-origin: https://github.com/TypQxQ/KTC.git
-primary_branch: main
-install_script: install.sh
-managed_services: klipper
